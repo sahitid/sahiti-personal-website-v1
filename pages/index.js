@@ -1,5 +1,6 @@
 import HeadObject from "../components/head";
 import { motion } from "framer-motion";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
   return (
@@ -7,9 +8,11 @@ export default function Home() {
       <HeadObject />
       <main className="flex flex-col w-full bg-[#6865D1] h-screen">
         <div className="flex h-10 border-l-2 background-color border-[#DCAAF3] bg-[#DCAAF3] items-center justify-center">
+          <Marquee>
           <p className="bebas-neue text-white">
             🎔 made with love & sparkling water.
           </p>
+          </Marquee>
         </div>
         <nav className="h-20 flex flex-row space-between">
           <div className="grow border-[#ACAAF3] bg-[#7673E5]"></div>
@@ -124,7 +127,7 @@ export default function Home() {
           </section>
 
           <div className="flex flex-row gap-2">
-            <svg
+            <a href="https://www.linkedin.com/in/sahitidasari/" target="_blank"><svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
               height="50"
@@ -138,9 +141,9 @@ export default function Home() {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
-            </svg>
+            </svg></a>
 
-            <svg
+            <a href="https://github.com/sahitid" target="_blank"><svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
               height="50"
@@ -154,9 +157,9 @@ export default function Home() {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
-            </svg>
+            </svg></a>
 
-            <svg
+            <a href="mailto:sahitidasari@outlook.com" target="_blank"><svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
               height="50"
@@ -168,7 +171,7 @@ export default function Home() {
                 d="M6.58218 6.91201C6.37579 6.72855 6.05975 6.74714 5.8763 6.95353C5.69284 7.15992 5.71143 7.47596 5.91782 7.65942L6.58218 6.91201ZM8.5 9.28571L8.16782 9.65942C8.35726 9.82781 8.64274 9.82781 8.83218 9.65942L8.5 9.28571ZM11.0822 7.65942C11.2886 7.47596 11.3072 7.15992 11.1237 6.95353C10.9402 6.74714 10.6242 6.72855 10.4178 6.91201L11.0822 7.65942ZM4 11.8571H3.5H4ZM4.9 5L4.9 4.5L4.9 5ZM12.1 5V4.5V5ZM5.91782 7.65942L8.16782 9.65942L8.83218 8.91201L6.58218 6.91201L5.91782 7.65942ZM8.83218 9.65942L11.0822 7.65942L10.4178 6.91201L8.16782 8.91201L8.83218 9.65942ZM4.5 11.8571V6.14286H3.5V11.8571H4.5ZM4.5 6.14286C4.5 5.93878 4.56482 5.76041 4.65642 5.64408L3.87079 5.02539C3.62483 5.33772 3.5 5.74073 3.5 6.14286H4.5ZM4.65642 5.64408C4.74573 5.53068 4.83772 5.5 4.9 5.5L4.9 4.5C4.48489 4.5 4.11905 4.71014 3.87079 5.02539L4.65642 5.64408ZM4.9 5.5H12.1V4.5H4.9V5.5ZM12.1 5.5C12.1623 5.5 12.2543 5.53068 12.3436 5.64408L13.1292 5.02539C12.881 4.71014 12.5151 4.5 12.1 4.5L12.1 5.5ZM12.3436 5.64408C12.4352 5.76041 12.5 5.93878 12.5 6.14286H13.5C13.5 5.74073 13.3752 5.33772 13.1292 5.02539L12.3436 5.64408ZM12.5 6.14286V11.8571H13.5V6.14286H12.5ZM12.5 11.8571C12.5 12.0612 12.4352 12.2396 12.3436 12.3559L13.1292 12.9746C13.3752 12.6623 13.5 12.2593 13.5 11.8571H12.5ZM12.3436 12.3559C12.2543 12.4693 12.1623 12.5 12.1 12.5V13.5C12.5151 13.5 12.881 13.2899 13.1292 12.9746L12.3436 12.3559ZM12.1 12.5H4.9V13.5H12.1V12.5ZM4.9 12.5C4.83772 12.5 4.74573 12.4693 4.65642 12.3559L3.87079 12.9746C4.11905 13.2899 4.48489 13.5 4.9 13.5V12.5ZM4.65642 12.3559C4.56482 12.2396 4.5 12.0612 4.5 11.8571H3.5C3.5 12.2593 3.62483 12.6623 3.87079 12.9746L4.65642 12.3559Z"
                 fill="black"
               />
-            </svg>
+            </svg></a>
           </div>
         </section>
 
