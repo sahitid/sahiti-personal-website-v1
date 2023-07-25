@@ -74,7 +74,7 @@ export default function Home() {
           <br></br>
           <br></br>
 
-          <section className="absolute bottom-20 right-20">
+          <section className="absolute bottom-20 right-20 sm:visible invisible">
             <motion.svg
               xmlns="http://www.w3.org/2000/svg"
               width="150"
