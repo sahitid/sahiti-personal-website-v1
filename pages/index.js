@@ -61,15 +61,16 @@ export default function Home() {
         </div>
 
         <section className="max-w-4xl	ml-10 my-10 grow text-[#D7C4E0]">
-          <h1 className="domaine-bold-italic text-7xl	">Sahiti Dasari</h1>
+          <h1 className="inter font-bold text-7xl	">SAHITI DASARI.</h1>
           <br></br>
-          <p className="domaine text-xl">
-            hi! i’m sahiti, a high school student, in love with computer science
-            and entrepreneurship.
-            <br></br>
-            <br></br>
-            in the past, i organized Forsyth Hacks, a county wide hackathon for
-            high-school students interested in application based coding.
+          <p className="inter text-base">
+          Hi! I'm a student and full stack developer in love with the world of computer science and entrepreneurship.
+          My mission is to make an impact by spreading opportunities. Feel free to connect with me at any of the links 
+          below and check out my <a href="https://github.com/sahitid" target="_blank"><u>projects</u></a>.
+          <br></br>
+          <br></br>
+          What keeps me going? The belief that when we blend creativity with purpose, we can sculpt a better world. 
+          And it's not just about changing the world; it's about having a blast while doing it!
           </p>
           <br></br>
           <br></br>

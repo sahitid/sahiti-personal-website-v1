@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('/public/test-domaine-display-bold-italic.woff2');
 @import url('/public/test-domaine-display-black-italic.woff2');
 
@@ -18,6 +19,10 @@ input:focus { outline: none; }
 
 .bebas-neue {
   font-family: "Bebas Neue", sans-serif;
+}
+
+.inter{
+  font-family: 'Inter', sans-serif;
 }
 
 .domaine{
