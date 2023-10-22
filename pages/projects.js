@@ -476,7 +476,7 @@ export default function Home() {
 
                 <div className="mr-2">
                   <a
-                    href="https://github.com/sahitid/ForsythHacksV2-Site"
+                    href="https://github.com/SFHSHackClub/forsyth-hacks-v2-site"
                     target="_blank"
                   >
                     <svg
