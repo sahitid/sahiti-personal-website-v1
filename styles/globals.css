@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('/public/test-domaine-display-bold-italic.woff2');
-@import url('/public/test-domaine-display-black-italic.woff2');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("/public/test-domaine-display-bold-italic.woff2");
+@import url("/public/test-domaine-display-black-italic.woff2");
 
 @tailwind base;
 @tailwind components;
@@ -9,29 +9,45 @@
 
 /* Fixes Tailwind h-screen on iPhones */
 @supports (-webkit-touch-callout: none) {
-    .h-screen {
-      height: -webkit-fill-available;
-    }
+  .h-screen {
+    height: -webkit-fill-available;
   }
+}
 
 /* Fixes outline style for inputs on Safari */
-input:focus { outline: none; }
+input:focus {
+  outline: none;
+}
 
 .bebas-neue {
   font-family: "Bebas Neue", sans-serif;
 }
 
-.inter{
-  font-family: 'Inter', sans-serif;
+.inter {
+  font-family: "Inter", sans-serif;
 }
 
-.domaine{
+.domaine {
   font-family: "Test Domaine Display";
   font-style: italic;
 }
 
-.domaine-bold-italic{
+.domaine-bold-italic {
   font-family: "Test Domaine Display";
   font-style: italic;
   font-weight: 800;
+}
+
+.fade-in-black {
+  background: linear-gradient(to left, #cce822 50%, #acaaf3 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all ease 0.3s;
+  border-color: #acaaf3;
+}
+
+.fade-in-black:hover {
+  background-position: left bottom;
+  color: white;
+  border-color: white;
 }
