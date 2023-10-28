@@ -91,7 +91,7 @@ export default function Home() {
               <br></br>
               <div className="flex flex-row">
                 <div className="mr-2">
-                  <a href="https://youtube.com" target="_blank">
+                  <a href="https://youtu.be/bqc_u6gAjtY" target="_blank">
                     <svg
                       width="40"
                       height="40"
